@@ -252,11 +252,17 @@ body{
 
 	&__block {
 		padding: 190px 10px 0;
+		&:hover{
+			.small-team__say{
+				display: inline-block;
+			}
+		}
 	}
 
 	// .small-team__say
 
 	&__say {
+		display: none;
 		max-width: 335px;
 		margin: auto;
 		background-color: #6df6eb;
